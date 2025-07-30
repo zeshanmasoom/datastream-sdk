@@ -7,7 +7,7 @@
             "type": "blobTrigger",
             "direction": "in",
             "path": "data/{name}",
-            "connection": "AzureWebJobsStorage"
+            "connection": "AzureDataStorageConnectionString"
         },
         {
             "type": "cosmosDB",
